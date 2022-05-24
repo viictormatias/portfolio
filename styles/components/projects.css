@@ -1,0 +1,45 @@
+.projects {
+    width: 800px;
+    height: 470px;
+    margin-top: 1350px;
+}
+.projects__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    margin-bottom: 20px;
+}
+.project__text {
+    font-size: 18px;
+    line-height: 23.4px;
+}
+.container__project {
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    width: 800px;
+    padding: 30px 30px;
+    margin-top: 20px;
+}
+.projects__example {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.prod__text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom:40px ;
+    color: var(--color-darken-gray);
+    line-height: 30px;
+}
+.logo__pet {
+    margin-top: 15px;
+    margin-left: -13px;
+    margin-bottom: -5px;
+}
+.logo__crieflix {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
