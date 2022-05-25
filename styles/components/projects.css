@@ -1,7 +1,8 @@
 .projects {
+    position: absolute;
     width: 800px;
     height: 470px;
-    margin-top: 1350px;
+    margin-top: 1450px;
 }
 .projects__title {
     font-size: 24px;
@@ -36,10 +37,85 @@
 }
 .logo__pet {
     margin-top: 15px;
-    margin-left: -13px;
+    margin-left: -5px;
     margin-bottom: -5px;
 }
 .logo__crieflix {
     margin-top: 15px;
     margin-bottom: 5px;
+}
+.projects__h1 {
+    width: 800px;
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items:center;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects__page {
+    position: absolute;
+    width: 800px;
+    margin-top: 150px;
+}
+.projects__text {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom:40px ;
+    color: var(--color-darken-gray);
+    line-height: 30px;
+    font-weight: 400;
+}
+.picture__project {
+    border-radius: 8px;
+    width: 1000px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+}
+.project__description {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom:70px ;
+    color: var(--color-darken-gray);
+    line-height: 30px;
+}
+.project__desc__container {
+   position: absolute;
+   margin-top: -40px;
+}
+.projects__title__1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+}
+.project__example {
+    display: flex;
+    justify-content: center;
+    height: 465px;
+}
+.project__example__2 {
+    display:flex;
+    justify-content: center;
+    height: 465px;
+    margin-top: 200px;
+}
+.project__desc__container__1 {
+    position: absolute;
+    margin-top: -40px;
+}
+.projects__links {
+    text-decoration: none;
+}
+.projects__links:visited {
+    color: var(--color-black);
 }
