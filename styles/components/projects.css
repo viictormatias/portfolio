@@ -2,7 +2,7 @@
     position: absolute;
     width: 800px;
     height: 470px;
-    margin-top: 1450px;
+    margin-top: 1350px;
 }
 .projects__title {
     font-size: 24px;
@@ -85,7 +85,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom:70px ;
     color: var(--color-darken-gray);
     line-height: 30px;
 }
@@ -125,7 +124,7 @@
         position: absolute;
         width: 90%;
         height: 470px;
-        margin-top: 1350px;
+        margin-top: 1200px;
     }
     .projects__title {
         text-align: center;

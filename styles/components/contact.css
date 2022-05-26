@@ -99,7 +99,7 @@ textarea:-moz-placeholder { color:var(--color-lighter-gray); font-family: var(--
     }
     .button-contact {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .form-message {
         width: 95%;
