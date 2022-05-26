@@ -66,3 +66,43 @@
 ::-webkit-input-placeholder  { color:var(--color-lighter-gray); font-family: var(--font-family-primary);}
 input:-moz-placeholder { color:var(--color-lighter-gray); font-family: var(--font-family-primary); }
 textarea:-moz-placeholder { color:var(--color-lighter-gray); font-family: var(--font-family-primary); }
+
+@media only screen and (max-width:480px) {
+    .talktome {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+    }
+    .campo-form {
+        display: inline-block;
+        width: 100%;
+    }
+    .campo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .campo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .form-item {
+        width: 95%;
+        margin-left: 8px;
+    }
+    .button-contact {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .form-message {
+        width: 95%;
+        margin-left: 8px;
+    }
+}

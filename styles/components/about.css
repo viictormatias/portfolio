@@ -77,3 +77,70 @@
     color: var(--color-light-gray);
     font-weight: 400;
 }
+
+@media only screen and (max-width:480px) {
+    .about {
+        position: absolute;
+        width: 100%;
+        margin-top: 150px ;
+    }
+    .about__title {
+        width: 100%;
+        text-align: center;
+        line-height: 57px;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 600;
+        display: flex;
+        align-items:center;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .picture {
+        border-radius: 8px;
+        filter: grayscale(1);
+        width: 100%;
+    }
+    .socialmedia {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .about__page {
+        position: absolute;
+        width: 100%;
+        margin-top: 150px ;
+    }
+    .about__text {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom:40px ;
+        color: var(--color-darken-gray);
+        line-height: 30px;
+    }
+    .works {
+        position: absolute;
+        width: 95%;
+        margin-top: 900px ;
+    }
+    .studies {
+        position: absolute;
+        width: 95%;
+        margin-top: 1100px ;
+    }
+    .company {
+        width: 100%;
+        color: var(--color-darken-gray);
+        font-weight: 600;
+    }
+   .jobs {
+       display: inline-block;
+   }
+}
