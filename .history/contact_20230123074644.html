@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/components/about.css">
     <link rel="stylesheet" href="styles/components/button.css">
     <link rel="stylesheet" href="styles/components/projects.css">
+    <link rel="stylesheet" href="styles/components/contact.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,9 +26,9 @@
             <i class="fa-solid fa-bars"></i>
         </label>
           <input id="hamburger" class="header__check" type="checkbox">
-            <a href="./index.html">
-                <img class="logo" src="./images/VM.png">
-            </a>
+          <a href="./index.html">
+            <img class="logo" src="./images/VM.png">
+        </a>
         <nav class="header__menu">
             <a href="./index.html" class="header__menu__item">  
                 <span class="header__menu__item__text">Início</span>
@@ -35,38 +36,59 @@
             <a href="./about.html" class="header__menu__item">  
                 <span class="header__menu__item__text">Sobre</span>
             </a>
-            <a href="./projects.html" class="header__menu__item header__menu__item--active">  
+            <a href="./projects.html" class="header__menu__item">  
                 <span class="header__menu__item__text">Projetos</span>
             </a>
-            <a href="./contact.html" class="header__menu__item">  
+            <a href="./contact.html" class="header__menu__item header__menu__item--active">  
                 <span class="header__menu__item__text">Contato</span>
             </a>
         </nav>
     </header>
-    <section class="projects__page">
-        <h1 class="projects__h1">Projetos</h1>
-        <p class="projects__text">Aqui descreverei os projetos que desenvolvi neste ano no curso CRIE_TI. São páginas web, com estrutura HTML5 e estilização em CSS3.</p>
-    <div class="project__example">
-        <img class="picture__project" src="./images/petshop.jpg"  width="1000px">
-    </div>
-    <div class="project__desc__container">
-        <h2 class="projects__title__1">Projeto 1</h2>
-        <p class="project__description">Este projeto conta com 5 páginas. Possui descrição da empresa, de serviços, inclusive produtos e links para os mesmos. Também conta com uma página de formulário para contato e um mini mapa para localização da empresa.</p>
-    </div>
-    <div class="project__example__2" id="projeto2">
-        <img class="picture__project" src="./images/crieflix.jpg" width="1000px">
-    </div>
-    <div class="project__desc__container__1">
-        <h2 class="projects__title__1">Projeto 2</h2>
-        <p class="project__description">O projeto Crieflix conta apenas com uma página com alguns conceitos bastante populares como por exemplo o "slider" (rolagem lateral de filmes) que é visto frequentemente em serviços de streaming.</p>
-    </div>
+
+    <section class="contact">
+        <div class="talktome">
+            <h1 class="projects__h1">Fale comigo</h1>
+            <p class="projects__text">Caso queira entrar em contato, segue abaixo o meu telefone e e-mail de trabalho. O formulário abaixo ainda não está em funcionamento.</p>
+            <div class="mailtel">
+                <p class="info">+55 51 98537-0227</p>
+                <p class="info">vmatiasdev@gmail.com</p>
+            </div>
+        </div>
+
+        <form class="form">
+            <div class="campo1">
+                <div class="campo-form">
+                    <label class="form-titles" for="name">Nome</label>
+                    <input class="form-item" type="text" id="name" name="name" placeholder="Seu nome completo">
+                </div>
+                <div class="campo-form">
+                    <label class="form-titles" for="email">E-mail</label>
+                    <input class="form-item" type="email" id="email" name="email" placeholder="Seu e-mail">
+                </div>
+            </div>
+            <div class="campo2">
+                <div class="campo-form">
+                    <label class="form-titles" for="phone">Telefone</label>
+                    <input class="form-item" type="tel" id="phone" name="phone" placeholder="Seu telefone">
+                </div>
+                <div class="campo-form">
+                    <label class="form-titles" for="phone">Assunto</label>
+                    <input class="form-item" type="subject" id="subject" name="subject" placeholder="Sobre o que deseja falar">
+                </div>
+            </div>
+            <div class="message">
+                <label class="form-titles" for="message">Mensagem</label>
+                <textarea class="form-message" id="message" name="message" rows="5"></textarea></div>
+                <div class="button-contact">
+                    <input class="button" type="submit" value="Enviar">
+                </div>
+            </div>
+        </form>
     </section>
 
-    <section class="footer__projects">
+    <section class="footer__contacts">
         <div class="container__footer">
-            <a href="./index.html">
-                <img class="logo__footer" src="./images/VM.png">
-            </a>
+            <img class="logo__footer" src="./images/VM.png">
             <p class="copy__text">©2022 Todos direitos reservados</p>
             <div class="socialmedia__footer">
                 <a class="icons" href="https://www.instagram.com/viictormatias/" target="_blank">
